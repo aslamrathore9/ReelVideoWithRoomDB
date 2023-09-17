@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CodeFliesAssignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">Share</string>
+    <string name="randomDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in justo ut quam bibendum vulputate. Quisque a bibendum metus. Fusce sit amet lectus sit amet dolor viverra iaculis. Integer non urna at urna rhoncus bibendum. Vivamus eget velit at justo fermentum gravida. Duis a purus in nisl auctor rhoncus sit amet vel odio. Sed nec hendrerit justo. Sed id posuere lorem. Proin in turpis in mi laoreet efficitur. Cras quis orci nec elit laoreet suscipit in id ipsum.</string>
+
+</resources>

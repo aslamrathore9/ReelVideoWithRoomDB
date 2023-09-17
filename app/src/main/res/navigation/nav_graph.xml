@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_navigation"
+    app:startDestination="@id/videoFragment">
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.kepler.codefliesassignment.ui.ReelVideoFragment"
+        android:label="fragment_reel_video"
+        tools:layout="@layout/fragment_reel_video" >
+        <action
+            android:id="@+id/action_videoFragment_to_commentSheetFragment"
+            app:destination="@id/commentViewFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/commentViewFragment"
+        android:name="com.kepler.codefliesassignment.ui.CommentViewFragment"
+        android:label="fragment_comment_view"
+        tools:layout="@layout/fragment_comment_view" />
+
+
+    <activity
+        android:id="@+id/reelRecorderAcitivity"
+        android:name="com.kepler.codefliesassignment.ui.ReelRecorderActivity"
+        android:label="activity_reel_recorder"
+        tools:layout="@layout/activity_reel_recorder" />
+
+
+
+</navigation>
